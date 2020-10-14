@@ -25,9 +25,6 @@ func TestMain(m *testing.M) {
 }
 
 func TestDockerIntegration(t *testing.T) {
-	if 1 < 2 {
-		return
-	}
 	tests := map[string]struct {
 		expectedDockerfile string
 	}{
